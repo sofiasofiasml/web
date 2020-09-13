@@ -2,6 +2,8 @@
 @import url("banner.css");
 @import url("blog.css");
 @import url("info.css");
+@import url("swiper.css");
+@import url("swiper.min.css");
 
 * {
     margin: 0;
