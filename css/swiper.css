@@ -1,5 +1,5 @@
 #swiper body {
-    background: #fff;
+    background: #202626;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
@@ -11,6 +11,7 @@
     width: 100%;
     padding-top: 40px;
     padding-bottom: 50px;
+    
 }
 
 #swiper .swiper-slide {
@@ -18,9 +19,9 @@
     background-size: cover;
     width: 200px;
     height: 200px;
+    background: #fff;
 
 }
-
 
 #swiper{
     background: #333;
@@ -28,7 +29,27 @@
     text-align: center;
     padding: 20px;
 }
-#swiper h4{
-    margin-top: 205px;
+
+#swiper img{
+    position: absolute;
+    clip: rect(0px, 300px, 200px, 100px);
+    width: 350px;
+    height: 200px;
+    margin-left: -200px;
+}
+
+#swiper .details{
+    padding-top: 200px;
+    color: #fff;
+    text-align: center;
     
 }
+/*
+#swiper h4  a.swiper-slide:hover,  swiper-slide:hover, a:link, a:visited, a:active{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+#swiper h4{
+    padding-top: 200px;
+}*/
