@@ -1,0 +1,81 @@
+#BlogPosts *{
+    margin-top: 0px;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+  }
+  #BlogPosts h3{
+      color: #333;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 30px;
+      color: #000;
+      margin-top: 100px;
+      text-align:  center;
+  }
+  #BlogPosts  body{
+    background-color: #444;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #BlogPosts  .blog-posts{
+    width: min(1200px, 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin-left: 80px;
+  }
+  
+  #BlogPosts  .post{
+    width: calc(33% - 10px);
+    overflow: hidden;
+    
+  }
+  
+  #BlogPosts .post-img{
+    width: 100%;
+    border-radius: 6px;
+    transition: .3s linear;
+  }
+  
+  #BlogPosts .post-content{
+    background-color: #ffffffdd;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 6px;
+    transform: translateY(-60px);
+    transition: .3s linear;
+  }
+  
+  #BlogPosts .post-content h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #BlogPosts .date{
+    font-size: 15px;
+    font-style: italic;
+    color: #e77f67;
+  }
+  
+  #BlogPosts  .post:hover .post-img{
+    transform: translateY(20px);
+  }
+  
+  #BlogPosts  .post:hover .post-content{
+    transform: translateY(-80px);
+  }
+  /*pantalla pequeña (android)*/
+  @media screen and (max-width: 1200px){
+    #BlogPosts .blog-posts{
+      justify-content: center;
+      margin-left: 0px;
+    }
+    #BlogPosts .post{
+      width: min(600px, 100%);
+      
+    }
+  }
