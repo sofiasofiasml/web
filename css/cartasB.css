@@ -1,0 +1,83 @@
+#CartasB .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #16384c;
+
+
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-left: 125px;
+    margin-right: 125px;
+    position: relative;
+    width: auto;
+    
+}
+#CartasB  h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#CartasB .contenedor .card{
+    position: relative;
+    max-width: 300px;
+    height: 300px ;
+    background: #fff;
+    margin: 50px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0,0.5);
+    transition: 0.3s ease-in-out;
+}
+
+#CartasB .contenedor .card:hover{
+    height: 500px; /*largo de caja blanca*/
+}
+#CartasB .contenedor .card .imgBx{
+    position: relative;
+    width: 260px;
+    height:260px ;
+    top: -60px; 
+    left: 5px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0,0.2);
+}
+
+#CartasB .contenedor .card .imgBx img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+#CartasB .contenedor .card .content{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden ;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+#CartasB .contenedor .card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: 60px;
+    transition-delay: 0.3s;
+    font-size: 15px;
+}
+
+#CartasB a{
+    display: block;
+    width: 100px;
+    color: black;
+    text-decoration: none;
+    padding: 2px;
+    margin-top: 10px;
+    border: 3px solid black;
+    margin-left: 30%;
+}
+#CartasB a:hover{
+    background: rgba(51,51,51,0.5);
+}

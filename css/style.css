@@ -5,6 +5,7 @@
 @import url("swiper.css");
 @import url("swiper.min.css");
 @import url("BlogPost.css");
+@import url("cartasB.css");
 
 
 * {
@@ -26,6 +27,10 @@ header{
     z-index: 100;
 }
 
+header a{
+    color: white;
+    text-decoration: none;
+}
 .contenedor{
     width: 98%;
     margin: auto;
