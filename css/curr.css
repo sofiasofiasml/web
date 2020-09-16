@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#CV{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#Banner_CV{
+    padding: 100px;
+}
+#CV #Banner_CV{
+    margin-top: 50px;
+    position: relative;
+    min-height: 50vh;
+    background: url(../img/bannerSofia.png);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#CV #Banner_CV h2{
+    font-size: 2em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 700px;
+
+}
+
+#CV #Banner_CV h2 span{
+    font-weight: 500;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+#CV .heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111; 
+}
+
+#CV .heading h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+#CV .content{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#CV .contentBx{
+    padding-right: 30px;
+}
+#CV .contentBx h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#CV .content .w50{
+    min-width: 50%;
+
+}
+#CV .contentBx p{
+    text-align: justify;
+    
+}
+
+
+#CV .content .w50 img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+
+@media(max-width:991px){
+    #CV .heading h2{
+        font-weight: 600;
+        font-size: 24px;
+    }
+    #CV .content {
+        flex-direction: column;
+        justify-content: space-between;
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #CV .contentBx{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width:450px){
+    #CV .content {
+        
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+    #CV .content .w50 img{
+        max-width: 90%;
+        border-radius: 5px;
+    }
+
+}
+@media(max-width:900px){
+    #CV .content {
+        
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+    #CV .content .w50 img{
+        max-width: 96%;
+        border-radius: 5px;
+    }
+
+}

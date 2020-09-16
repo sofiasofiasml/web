@@ -6,6 +6,7 @@
 @import url("swiper.min.css");
 @import url("BlogPost.css");
 @import url("cartasB.css");
+@import url("curr.css");
 
 
 * {
@@ -64,6 +65,12 @@ footer .contenedor{
 .sociales a{
     color: #333;
     text-decoration: none;
+}
+
+@media(min-width:360px){
+    footer{
+        margin-bottom: 10px;
+    }
 }
 
 @media (min-width:768px){
